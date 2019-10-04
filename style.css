@@ -1,0 +1,29 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: flex;	
+}
+
+.brown {
+	background-color: #AA896A;
+}
+
+.purple {
+	background-color: #84577E;
+}
+
+.column {
+	height: 100%;
+	width: 50%;
+}
+
+@media screen and (max-width: 700px) { 
+body {
+	display: block;	
+}
+.column {
+	height: 50%;
+	width: 100%;
+}
+}
